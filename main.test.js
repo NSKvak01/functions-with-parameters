@@ -4,6 +4,31 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Nastya';
+let greeting= 'HEY';
+
+function multiply(number){
+  x = x * number;
+}
+
+function modYBy(number){
+  y = y % number;
+}
+
+function opposite(number){
+  z = number * (-1);
+}
+
+function makeFullName(lastName){
+  name = name + ' ' + lastName;
+}
+
+function yellAt(par){
+  greeting = greeting + ', ' + par + '!';
+}
 
 
 
